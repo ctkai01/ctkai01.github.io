@@ -386,7 +386,7 @@
   margin-top: 64.5px;
   width: 100%; }
   .footer__img {
-    background-image: url(https://ctkai01.github.io/EPicture/travel_project/assets/img/footer.jpg);
+    background-image: url(../img/footer.jpg);
     background-position: 50% 50%;
     background-size: cover;
     padding-top: 80px; }
