@@ -386,7 +386,7 @@
   margin-top: 64.5px;
   width: 100%; }
   .footer__img {
-    background-image: url(/travel_project/assets/img/footer.jpg);
+    background-image: url(https://ctkai01.github.io/EPicture/travel_project/assets/img/footer.jpg);
     background-position: 50% 50%;
     background-size: cover;
     padding-top: 80px; }
@@ -518,7 +518,7 @@
 
 .header {
   width: 100%;
-  background-image: url(/namql/travel_project/assets/img/travel_contact/banner-contact.jpg);
+  background-image: url(https://ctkai01.github.io/namql/travel_project/assets/img/travel_contact/banner-contact.jpg);
   padding-top: 20.357%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -980,7 +980,7 @@ body {
   margin-bottom: 20px; }
 
 .header {
-  background-image: url(/travel_project/assets/img/banner-header.jpg);
+  background-image: url(https://ctkai01.github.io/travel_project/assets/img/banner-header.jpg);
   padding-top: 57.925%;
   background-repeat: no-repeat;
   background-size: 137%;
@@ -1224,7 +1224,7 @@ select {
 
 .banner-view {
   margin-top: 70px;
-  background-image: url(/travel_project/assets/img/banner-view.jpg);
+  background-image: url(https://ctkai01.github.io/travel_project/assets/img/banner-view.jpg);
   padding-top: 15.45%;
   background-position-x: center;
   background-position-y: center;
@@ -1381,7 +1381,7 @@ select {
   padding: 20px 15px 20px 35px; }
 
 .good-place__img-beach {
-  background-image: url(/travel_project/assets/img/beach.jpg);
+  background-image: url(https://ctkai01.github.io/travel_project/assets/img/beach.jpg);
   padding-top: 54.6%;
   width: 750px;
   position: relative;
@@ -1503,7 +1503,7 @@ select {
   margin-top: 77px; }
 
 .banner-discover__cities {
-  background-image: url(/travel_project/assets/img/discover-cities.jpg);
+  background-image: url(https://ctkai01.github.io/travel_project/assets/img/discover-cities.jpg);
   background-size: cover;
   background-position: 50% 50%;
   flex: 1; }
@@ -1545,7 +1545,7 @@ select {
   text-decoration: none; }
 
 .banner-discover__nature {
-  background-image: url(/travel_project/assets/img/discover-nature.jpg);
+  background-image: url(https://ctkai01.github.io/travel_project/assets/img/discover-nature.jpg);
   background-size: cover;
   background-position: 50% 50%;
   flex: 1; }
