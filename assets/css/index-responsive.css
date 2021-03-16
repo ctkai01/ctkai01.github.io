@@ -1,0 +1,520 @@
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .buy-now {
+    display: none; }
+  .wide .l-4 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .header {
+    margin-top: 125px;
+    padding-top: initial;
+    background-size: initial;
+    background-position: initial;
+    background-position: 50.3% 50%;
+    background-size: 394%; }
+    .header__nav {
+      display: block;
+      top: -125px;
+      height: 125px;
+      background-color: #555555;
+      padding: 11px 15px; }
+    .header__logo {
+      margin-right: 0; }
+    .header__img {
+      width: 160px;
+      height: 38px;
+      margin: auto;
+      margin-bottom: 18px; }
+    .header__menu {
+      display: none; }
+    .header__travel-section {
+      display: block; }
+    .header__search {
+      position: initial;
+      padding: 270px 10px 187px 10px; }
+    .header__solgan {
+      margin-top: 35.1px; }
+    .header__input-wr {
+      width: 100%;
+      padding: 0 15px; }
+    .header__input {
+      min-height: 43.6px;
+      margin-left: 0;
+      width: 100%;
+      margin-top: 65px; }
+    .header__search-icons {
+      right: 25px;
+      top: 65px; }
+    .header__travel-section {
+      margin-top: 71px;
+      margin-left: 0;
+      padding: 0 30px; }
+    .header__sidebar {
+      position: initial;
+      text-align: center; }
+  .travel-section__items {
+    width: 100%;
+    margin-bottom: 30px; }
+  .grid.wide {
+    margin: 0;
+    width: 100%; }
+  .place {
+    padding: 0 40px; }
+    .place__proposals {
+      margin-left: 24px;
+      margin-right: 24px; }
+    .place__destinations {
+      margin-left: 24px;
+      margin-right: 24px; }
+    .place__items {
+      width: 100%;
+      min-height: 717.6px; }
+    .place__col {
+      padding: 0 31px; }
+    .place .overlay {
+      padding: 275px 30px; }
+  .banner-view {
+    padding: 50px 10px 94px 10px; }
+    .banner-view__heading {
+      position: initial;
+      padding: 10px 15px 48px 15px; }
+    .banner-view__btt {
+      position: initial;
+      margin-left: 256px; }
+  .good-place__beach {
+    display: block;
+    width: 100%; }
+  .good-place__info {
+    width: 100%;
+    padding: 20px 35px 20px 25px; }
+  .good-place__img {
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px 40px 20px 50px; }
+  .good-place__img-beach {
+    width: 100%; }
+  .good-place__time {
+    position: initial;
+    width: 100%; }
+  .time__items {
+    flex: 1; }
+  .good-place__review {
+    display: block;
+    margin-top: 40px;
+    padding: 0 10px; }
+  .review__items {
+    margin-bottom: 20px; }
+  .banner-discover {
+    display: block; }
+    .banner-discover__cities {
+      padding: 60px 15px; }
+    .banner-discover__nature {
+      padding: 60px 15px; }
+    .banner-discover__discount {
+      margin-top: 0px; }
+    .banner-discover__btt-wr {
+      margin-bottom: 0px; }
+  .packages__place-wr {
+    display: block; }
+  .packages__items {
+    padding: 16px 40px 25px 40px; }
+  .packages__icons {
+    left: 648px; }
+  .footer {
+    margin-top: 50px; }
+    .footer .footer__img {
+      position: initial;
+      padding: 80px 40px 0; }
+    .footer__contact {
+      margin: 0;
+      position: initial;
+      display: block; }
+    .footer .footer__nav {
+      padding-bottom: 80px; }
+    .footer__input {
+      display: flex;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 60px; }
+    .footer__send-btt {
+      line-height: initial;
+      padding: 10.8px 65.68px;
+      display: block;
+      width: 26%;
+      text-align: center; }
+    .footer__fill-out {
+      width: 71.93%; }
+    .footer__content {
+      position: initial;
+      padding-bottom: 0;
+      height: auto;
+      width: 100%; }
+    .footer__nav {
+      min-width: 100%;
+      margin-left: 0;
+      margin-top: 65px; }
+    .footer__travel-wra {
+      display: block; }
+    .footer__made {
+      display: block;
+      height: auto; }
+    .footer .made-heading__text {
+      margin-top: 0;
+      text-align: center;
+      margin-left: 0;
+      padding: 20px;
+      letter-spacing: 2px; }
+    .footer .made-copyright__text {
+      text-align: center;
+      margin-right: 0;
+      padding: 20px;
+      margin-top: 0;
+      letter-spacing: 2px; } }
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .buy-now {
+    display: none; }
+  .header {
+    margin-top: 125px;
+    padding-top: initial;
+    background-size: initial;
+    background-position: initial;
+    background-position: 50.3% 50%;
+    background-size: 394%; }
+    .header__nav {
+      display: block;
+      top: -125px;
+      height: 125px;
+      background-color: #555555;
+      padding: 11px 15px; }
+    .header__logo {
+      margin-right: 0; }
+    .header__img {
+      width: 160px;
+      height: 38px;
+      margin: auto;
+      margin-bottom: 18px; }
+    .header__menu {
+      display: none; }
+    .header__travel-section {
+      display: block; }
+    .header__search {
+      position: initial;
+      padding: 270px 10px 187px 10px; }
+    .header__solgan {
+      margin-top: 35.1px; }
+    .header__input-wr {
+      width: 100%;
+      padding: 0 15px; }
+    .header__input {
+      min-height: 43.6px;
+      margin-left: 0;
+      width: 100%;
+      margin-top: 65px; }
+    .header__search-icons {
+      right: 25px;
+      top: 65px; }
+    .header__travel-section {
+      margin-top: 71px;
+      margin-left: 0;
+      padding: 0 30px; }
+    .header__sidebar {
+      position: initial;
+      text-align: center; }
+  .travel-section__items {
+    width: 100%;
+    margin-bottom: 30px; }
+  .grid.wide {
+    margin: 0;
+    width: 100%; }
+  .col {
+    padding-left: 25px !important;
+    padding-right: 25px !important; }
+  __proposals {
+    margin-left: 24px;
+    margin-right: 24px; }
+  __destinations {
+    margin-left: 24px;
+    margin-right: 24px; }
+  __items {
+    width: 100%;
+    min-height: 717.6px; }
+  __col {
+    padding: 0 31px; }
+  .overlay {
+    padding: 275px 30px; }
+  .banner-view {
+    padding: 50px 10px 94px 10px; }
+    .banner-view__heading {
+      position: initial;
+      padding: 10px 15px 48px 15px; }
+    .banner-view__btt {
+      position: initial;
+      margin-left: 256px; }
+  .good-place__beach {
+    display: block;
+    width: 100%; }
+  .good-place__info {
+    width: 100%;
+    padding: 20px 35px 20px 25px; }
+  .good-place__img {
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px 25px 20px 43px; }
+  .good-place__img-beach {
+    width: 100%; }
+  .good-place__time {
+    position: initial;
+    width: 100%; }
+  .time__items {
+    flex: 1; }
+  .good-place__review {
+    display: block;
+    margin-top: 40px;
+    padding: 0 10px; }
+  .review__items {
+    margin-bottom: 20px; }
+  .banner-discover {
+    display: block; }
+    .banner-discover__cities {
+      padding: 60px 15px; }
+    .banner-discover__nature {
+      padding: 60px 15px; }
+    .banner-discover__discount {
+      margin-top: 0px; }
+    .banner-discover__btt-wr {
+      margin-bottom: 0px; }
+  .packages__place-wr {
+    display: block; }
+  .packages__items {
+    padding: 25px;
+    padding-top: 16px; }
+  .packages__icons {
+    left: 648px; }
+  .footer {
+    margin-top: 50px; }
+    .footer .footer__img {
+      position: initial;
+      padding: 0 30px;
+      padding-top: 80px; }
+    .footer__contact {
+      margin: 0;
+      position: initial;
+      display: block; }
+    .footer__input {
+      display: flex;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 60px; }
+    .footer__send-btt {
+      line-height: initial;
+      padding: 10.8px 65.68px; }
+    .footer__fill-out {
+      width: 71.93%; }
+    .footer__content {
+      position: initial;
+      height: auto;
+      width: 100%; }
+    .footer__nav {
+      min-width: 100%;
+      margin-left: 0;
+      margin-top: 65px; }
+    .footer__travel-wra {
+      display: block; }
+    .footer__made {
+      display: block;
+      height: auto; }
+    .footer .made-heading__text {
+      margin-top: 0;
+      text-align: center;
+      margin-left: 0;
+      padding: 20px;
+      letter-spacing: 2px; }
+    .footer .made-copyright__text {
+      text-align: center;
+      margin-right: 0;
+      padding: 20px;
+      margin-top: 0;
+      letter-spacing: 2px; } }
+
+@media (max-width: 739px) {
+  .buy-now {
+    display: none; }
+  .header {
+    margin-top: 125px;
+    background-size: initial;
+    background-position: initial;
+    background-position: 49.9% 33%;
+    background-size: 861%;
+    height: auto; }
+    .header__nav {
+      display: block;
+      top: -125px;
+      height: 125px;
+      background-color: #555555;
+      padding: 11px 15px; }
+    .header__logo {
+      margin-right: 0; }
+    .header__img {
+      width: 160px;
+      height: 38px;
+      margin: auto;
+      margin-bottom: 18px; }
+    .header__menu {
+      display: none; }
+    .header__travel-section {
+      display: block; }
+    .header__search {
+      position: initial;
+      padding: 0px 53px 200px 53px;
+      height: 100%; }
+    .header__heading {
+      padding-top: 42px; }
+    .header__solgan {
+      margin-top: 35.1px; }
+    .header__input-wr {
+      width: 100%;
+      padding: 0 15px; }
+    .header__input {
+      min-height: 43.6px;
+      margin-left: 0;
+      min-width: 100%;
+      margin-top: 65px; }
+    .header__search-icons {
+      right: 25px;
+      top: 65px; }
+    .header__travel-section {
+      margin-top: 71px;
+      margin-left: 0;
+      padding: 0 30px; }
+    .header__sidebar {
+      position: initial;
+      text-align: center; }
+  .travel-section__items {
+    width: 100%;
+    margin-bottom: 30px; }
+  .grid.wide {
+    margin: 0;
+    width: 100%; }
+  __proposals {
+    margin-left: 24px;
+    margin-right: 24px; }
+  __destinations {
+    margin-left: 24px;
+    margin-right: 24px; }
+  __row {
+    margin-right: 0; }
+  __items {
+    width: 100%; }
+  __col {
+    padding: 0 31px; }
+  .overlay {
+    padding: 110px 0 100px 0; }
+  .banner-view {
+    padding: 50px 57px 85px 57px; }
+    .banner-view__heading {
+      position: initial;
+      padding: 24px 15px 48px 15px; }
+    .banner-view__heading--effect {
+      margin-left: 0px; }
+    .banner-view__btt {
+      position: initial;
+      margin-left: 30px; }
+  .good-place__beach {
+    display: block;
+    width: 100%; }
+  .good-place__info {
+    width: 100%;
+    padding: 20px 92.4px 20px 72px; }
+  .good-place__img {
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px 72px 20px 92px; }
+  .good-place__img-beach {
+    width: 100%; }
+  .good-place__time {
+    display: block;
+    position: initial;
+    width: 100%; }
+  .time__items {
+    flex: 1;
+    width: initial;
+    margin-bottom: 60px; }
+  .time__items:nth-child(4) {
+    margin-bottom: 0px; }
+  .good-place__review {
+    display: block;
+    margin-top: 40px;
+    padding: 0px 57px; }
+  .review__items {
+    margin-bottom: 20px; }
+  .banner-discover {
+    display: block; }
+    .banner-discover__cities {
+      padding: 60px 15px; }
+    .banner-discover__nature {
+      padding: 60px 15px; }
+    .banner-discover__discount {
+      margin-top: 0px; }
+    .banner-discover__btt-wr {
+      margin-bottom: 0px; }
+  .packages__place-wr {
+    display: block; }
+  .packages__items {
+    padding: 25px 73px;
+    padding-top: 16px; }
+  .packages__icons {
+    left: 648px; }
+  .footer__img {
+    position: initial;
+    padding: 80px 0; }
+  .footer__contact {
+    margin: 0;
+    position: initial;
+    display: block; }
+  .footer__input {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 60px; }
+  .footer__send-btt {
+    line-height: initial;
+    padding: 10.8px 65.68px;
+    width: 100%;
+    display: block;
+    text-align: center; }
+  .footer__fill-out {
+    width: 100%; }
+  .footer__travel {
+    width: 100%; }
+  .footer__items {
+    margin-right: 0px;
+    margin-bottom: 35px; }
+    .footer__items:last-child {
+      margin-bottom: 0px; }
+  .items__heading {
+    margin-bottom: 35px; }
+  .travel__desc {
+    padding-right: 0px; }
+  .footer__content {
+    position: initial;
+    height: auto;
+    width: 100%;
+    padding: 0 73px; }
+  .footer__nav {
+    min-width: 100%;
+    margin-left: 0;
+    margin-top: 65px; }
+  .footer__travel-wra {
+    display: block;
+    padding: 45px 49px; }
+  .footer__made {
+    display: block;
+    height: auto;
+    padding: 20px; }
+  .made-heading__text {
+    margin-top: 0 !important;
+    text-align: center;
+    margin-left: 0 !important; }
+  .made-copyright__text {
+    text-align: center !important;
+    margin-right: 0 !important; } }
