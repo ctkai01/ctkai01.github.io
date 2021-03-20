@@ -1,17 +1,18 @@
 {
-  "name": "travel_project",
+  "name": "chatapp",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "homepage": "https://ctkai01.github.io/index.html",
   "scripts": {
+    "start": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1",
-
     "css-watch": "node-sass -w ./resources/css/ -o ./assets/css/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^5.0.0"
-  },
-  "description": ""
+    "json-server": "^0.16.3",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8"
+  }
 }
