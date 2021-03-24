@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    /* background-image: url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg'); */
+    width: 1215px;
+    height: 717px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    display: flex;
+}
+
+/* .animated-avt {
+    width: 715px;
+    height: 100%;
+} */
+
+video {
+    width: 715px;
+    object-fit: cover;
+    height: 717px;
+    object-position: -250px 0px;
+}
+
+
+
+.section-login--logo {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+.section-login {
+    height: 100%;
+    width: 500px;
+    background:  linear-gradient(to right top, rgb(230, 109, 230) 30%, rgb(216, 42, 100) 70%, rgb(156, 11, 60) 100%);
+}
+
+.section-login--content {
+    padding: 0 80px;
+}
+
+.error-login {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(241, 213, 54);
+}
+
+.section-login--user-name,.section-login--password {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #000;
+    background: transparent;
+    padding: 5px 0;
+    width: 100%;
+}
+
+::placeholder {
+    color: #000;
+    font-size: 15px;
+}
+
+.section-login--user-name {
+    margin-bottom: 20px;
+}
+
+.section-login--remind {
+    display: flex;
+    margin-top: 25px;
+}
+
+.section-login--remind-checkbox {
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.section-login--remind-text {
+    color: #000;
+}
+
+.section-login--login-btn {
+    width: 100%;
+    font-size: 16px;
+    color: rgb(216, 42, 100);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    cursor: pointer;
+    outline: none;
+}
+.section-other {
+    padding: 0 80px;
+    margin-top: 85px;
+    color: #000;
+    line-height: 25px;
+}
+
+.sign-up, .username, .password {
+    color: #fff;
+    cursor: pointer;
+}
+
+.symbol-lol {
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+
+.toggle {
+    position: absolute;
+    bottom: 35px;
+    right: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 20px;
+  }
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 23px;
+    left: -1px;
+    bottom: -1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s
+}
+
+input:checked + .slider {
+    background-color: #ccc;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.login-mucsic  > span, .menu-animation > span {
+    color: #ccc;
+}
+
+.login-mucsic > span {
+    margin-left: 34px;
+}
+.login-mucsic {
+    display: flex;
+}
+
+.menu-animation {
+    display: flex;
+    margin-top: 16px;
+}
+
+.switch {
+    margin-left: 10px;
+}
