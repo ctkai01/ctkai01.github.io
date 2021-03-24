@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="section-login">
+            <div class="section-login--logo">
+                <img src="./assets/img/LOL.png" alt="">
+            </div>
+            <div class="section-login--content">
+                <p class="error-login"></p>
+                <input type="text" class="section-login--user-name" placeholder="Username">
+                <input type="password" class="section-login--password" placeholder="Password">
+                <button class="section-login--login-btn">Log In</button>
+            </div>
+            <div class="section-other">
+                <p class="question-account">Don't have an account ?<span class="sign-up"> Sign up now!</span></p>
+                <p class="question-forgot-user">Forgot your <span class="username">username?</span></p>
+                <p class="question-forgot-password">Forgot your <span class="password">password?</span></p>
+            </div>
+        </div>
+        <div class="toggle">
+            <div class="login-mucsic">
+                <span>Login music</span>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="menu-animation">
+                <span>Menu Animations</span>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+            <video class="video-animed" autoplay>
+                <source src="./assets/img/animated-Darius.webm" type="video/webm">     
+            </video>
+    </div>
+    
+    <script src="./js/login.js"></script>
+</body>
+</html>

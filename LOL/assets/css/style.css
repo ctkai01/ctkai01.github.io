@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1215px;
+    height: 717px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background:  linear-gradient(to right top, rgb(192, 190, 66) 30%, rgb(221, 200, 133) 70%, rgb(228, 151, 8) 100%);
+    top: 0;
+    left: 0;
+    padding: 50px 35px;
+    border-radius: 47px;
+    display: none;
+    z-index: 100;
+}
+
+.close-btn {
+    position: absolute;
+    right: 28px;
+    top: 24px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.nav-avt {
+    background-image: url('../img/challenger-removebg-preview.png');
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    /* background-color: red; */
+    /* margin-top: 50px; */
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.name-home, .name-nav {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.setting-btn, .home-btn, .security-btn {
+    line-height: 50px;
+    margin-left: 20px;
+    /* font-weight: 700; */
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.icon-wrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(204, 204, 204, 0.5);
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-setting, .section-home, .section-security, .section-log-out {
+    display: flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.section-log-out {
+    margin-top: 108px;
+}
+
+.home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.animated-avt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1215px;
+    height: 717px;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 49px;
+}
+
+.wrapper-login {
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+    margin-right: 150px;
+}
+    
+.section-loggin, .section-register {
+    background-color: rgb(174, 0, 255);
+    width: 100px;
+    height: 50px;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-loggin {
+    margin-right: 20px;
+}
+
+.login-avt {
+    background-image: url('https://2.bp.blogspot.com/-G7h0eQYnhn0/Wyq6Ph1Qv1I/AAAAAAABB1s/-zJSAMKaMDE4il-nuPzg-L4ly6mO-QcMQCLcBGAs/s200/3546.jpg');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.wrapper-login .name-home {
+    margin-left: 10px;
+    width: 100px;
+    color: rgb(41, 15, 189);
+    font-size: 18px;
+    display: none;
+}
+
+.wrapper-login .log-out-icon {
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+.profile-section {
+    display: flex;
+    width: 900px;
+    background-color: rgba(169, 168, 119, 0.5);
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.masteries-section {
+    flex: 2;
+    border-right: 2px solid rgba(207, 205, 82, 0.5)
+}
+
+.champions-section {
+    flex: 2;
+    border-right: 2px solid rgba(207, 205, 82, 0.5)
+}
+
+.main-lane-section {
+    flex: 1;
+}
+
+.masteries-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.masteries-title {
+    position: relative;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #482fa4;
+}
+
+.champion-title {
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #482fa4;
+}
+
+.main-lane-title {
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #482fa4;
+}
+
+.masteries-title::after {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 91%;
+    background-color: #a47d2f;
+    bottom: -73px;
+    left: 13px;
+    z-index: 1;
+}
+
+.masteries-title::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 87%;
+    background-color: #775d2a;
+    bottom: -78px;
+    left: 20px;
+    z-index: 1;
+}
+
+.masteries-champ {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 6px solid #a47d2f;
+}
+
+.masteries-champ.jax {
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/11.2.1/img/champion/Jax.png');
+    background-size: contain;
+    z-index: 20;
+    position: relative;
+}
+
+.masteries-champ.darius {
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/11.2.1/img/champion/Darius.png');
+    background-size: contain;
+    z-index: 20;
+    position: relative;
+}
+
+.masteries-champ.vayne {
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/11.2.1/img/champion/Vayne.png');
+    background-size: contain;
+    z-index: 20;
+    position: relative;
+}
+
+.icon-masteries {
+    background-image: url('../img/nentt-7.png');
+    width: 54px;
+    height: 31px;
+    background-size: contain;
+    margin: 0 auto;
+    position: relative;
+    top: -12px;
+}
+
+.icon-masteries-7 {
+    background-image: url('../img/tt7.png');
+    width: 40px;
+    height: 39px;
+    background-size: contain;
+    margin: 0 auto;
+    position: relative;
+    z-index: 8;
+}
+
+.masteries-name {
+    width: 100%;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.masteries-name::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    bottom: -6px;
+    left: 0;
+}
+
+.masteries-point {
+    font-size: 12px;
+}
+
+.masteries-highest-rank {
+    font-size: 10px;
+}
+
+.list-champ {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.champ-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.avt-champ {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 3px solid #a47d2f;
+    margin-left: 10px;
+}
+
+.avt-champ.viktor {
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/11.2.1/img/champion/Viktor.png');
+    background-size: contain;
+}
+
+.avt-champ.yasuo {
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/11.2.1/img/champion/Yasuo.png');
+    background-size: contain;
+}
+
+.avt-champ.ryze {
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/11.2.1/img/champion/Ryze.png');
+    background-size: contain;
+}
+
+.avt-champ.sion {
+    background-image: url('https://ddragon.leagueoflegends.com/cdn/11.2.1/img/champion/Sion.png');
+    background-size: contain;
+}
+
+.name-champ {
+    margin-left: 10px;
+    width: 94px;
+}
+
+.kda-champ {
+    margin-left: 10px;
+}
+
+.lane-item {
+    display: flex;
+    
+}
+
+.lane-img.top {
+    background-image: url('../img/midlane.png');
+    width: 47px;
+    height: 47px;
+    background-size: contain;
+    margin-left: 5px;
+}
+
+.lane-img.mid {
+    background-image: url('../img/top-lane.png');
+    width: 47px;
+    height: 47px;
+    background-size: contain;
+    margin-left: 5px;
+}
+
+.main-lane-title {
+    margin-bottom: 20px;
+}
+
+.win-rate {
+    margin-right: 10px;
+}
+
+.name-text {
+    color: #fff;
+    font-weight: 700;
+}
+
+.lane-text {
+    color: #fff;
+    font-weight: 700;
+}
+
+.info-kda {
+    color: #ad1a9a;
+    font-weight: 700;
+}
+
+.percent {
+    color: #2fa477;
+}

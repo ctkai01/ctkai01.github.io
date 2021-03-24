@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="section-register">
+            <div class="register-name">
+                <div class="register-name-input">
+                    <label for=""><i class="fas fa-user-circle icon-user"></i></label>
+                    <input class="input-name" type="text" placeholder="Authenticate User">
+                </div>
+                <p class="register-name-error"></p>
+            </div>
+            <div class="register-email">
+                <div class="register-email-input">
+                    <label for=""><i class="fas fa-envelope icon-email"></i></label>
+                    <input class="input-email" type="text" placeholder="Email">
+                </div>  
+                <p class="register-email-error"></p>
+            </div>
+            <div class="register-password">
+                <div class="register-password-input">
+                    <label for=""><i class="fas fa-lock icon-pass"></i></label>
+                    <input class="input-password" type="password" placeholder="Password">
+                </div>
+                <p class="register-password-error"></p>
+            </div>
+            <div class="register-rule">
+                <div class="register-rule-text">
+                    <input class="check-rules" type="checkbox">
+                    <div>Creating an account means you’re okay with our Terms of Service, Privacy Policy, and our default Notification Settings.</div>
+                </div>
+                <p class="error-check"></p>
+            </div>
+            <div class="register-submid">
+                <button class="register-btn">Register</button>
+            </div>
+            <p class="question-login">Do you already have an account ? <span class="text-login">Login</span></p>
+        </div>
+        <video class="video-animed" autoplay>
+            <source src="./assets/img/animated-bloodmoon-diana.webm.webm" type="video/webm">     
+        </video>
+        <script src="./js/register.js">
+        </script>
+    </div>
+</body>
+</html>
